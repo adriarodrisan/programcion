@@ -1,5 +1,5 @@
 array = ["indigo", "groc", "verd", "vermell", "blau", "cian", "taronja"]
-longitud_de_ones = {
+longitud_dones = {
     "indigo": 420,
     "groc": 570,
     "verd": 520,
@@ -8,8 +8,6 @@ longitud_de_ones = {
     "cian": 500,
     "taronja": 590
 }
-
-# Implementació del bubble sort per ordenar segons la longitud d'ona
 n = len(array)
 for i in range(n - 1):
     for j in range(0, n - i - 1):
