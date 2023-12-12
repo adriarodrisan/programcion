@@ -1,7 +1,5 @@
 array = ["indigo", "groc", "verd", "vermell", "blau", "cian", "taronja"]
-
-# Diccionari amb longituds d'ona associades als colors
-longitud_dones = {
+longitud_de_ones = {
     "indigo": 420,
     "groc": 570,
     "verd": 520,
