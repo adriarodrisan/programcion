@@ -1,0 +1,15 @@
+version: '3.1'
+  
+  service:
+    db:
+      image: mysql
+      comand: --default-authentication-plugin=mysql_native_password
+      restart: always
+      enviroment:
+        MYSQL_ROOT_PASSWORD: suspenso
+
+    adminer:
+      image: adminer
+      restart: always
+      ports:
+        - 8080:8080

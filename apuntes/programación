@@ -1,0 +1,38 @@
+1. Numeros
+	int-> x=5
+	float-> x=3,14
+	complex-> z=2+3j
+2. Cadena de texto
+	str->"hola"
+3. booleano
+	bool->True/False
+4. Secuencias
+	list->[1,2]
+	tuple->(1,2)
+	range->range(0,3)
+5. Conjuntos
+	set-> x= {1,2,3}
+6. Diccionarios
+	dict-> x=dict(), x= {'clave','valor'}
+7. Nometype
+	None
+8. Byte y Bytearray
+	byte-> x=b'hola'
+	bytearray-> x= bytearray(b'hola')
+9. Archivos
+	file-> representa un archivo abierto
+Casting
+	implicito
+		x=5
+		y = x/2
+		X = INT
+		y = float
+	explicito
+		a = 3,14
+		b= int(a) => 3
+print()
+\n=> es un intro
+\t=> es un tabulador
+\b=> borrar un espació
+\r=> retorno de carro
+
