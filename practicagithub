@@ -2,11 +2,11 @@
 estudiante1=[]
 
 #Afegir elements a la llista d'estudisantes(Nom, Cognom, Edat, Nota1, Nota2, Nota3).
-nombre=str(input("introduce el nombre del alumno"))
-apellido=str(input("Introduzca los apellidos del estudiante") )
-edad=int(input("Introduzca la edad del estudiante"))
-nota1= int(input("Introduzca la nota del primer examen del estudiante:"))
-nota2= int(input("Introduzca la nota del segundo examen del estudiante:"))
-nota3= int(input("Introduzca la nota del tercer examen del estudiante:"))
+nombre=str(input("introduce el nombre del alumno": ))
+apellido=str(input("Introduzca los apellidos del estudiante: ") )
+edad=int(input("Introduzca la edad del estudiante: "))
+nota1= int(input("Introduzca la nota del primer examen del estudiante: "))
+nota2= int(input("Introduzca la nota del segundo examen del estudiante: "))
+nota3= int(input("Introduzca la nota del tercer examen del estudiante: "))
 tupla=(nombre,apellido,edad,nota1,nota2,nota3)
 estudiante1.append(tupla)
