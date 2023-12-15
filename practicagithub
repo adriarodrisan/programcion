@@ -7,5 +7,7 @@ EDAT=3
 NOTA1=4
 NOTA2=5
 NOTA3=6
-
+fin_del_programa= False
+while fin_del_programa==False:
+    opciones= int(input("Que quieres añadir: 1-El Nombre, 2- El Apellido, 3- La Edat, 4- La Primera nota de la practica, 5- La Segunda nota de la pratica, 6- La tercera nota de la practica"))
 
