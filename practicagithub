@@ -11,7 +11,8 @@ nota2= int(input("Introduzca la nota del segundo examen del estudiante: "))
 nota3= int(input("Introduzca la nota del tercer examen del estudiante: "))
 tupla=(nombre,apellido,edad,nota1,nota2,nota3)
 estudiante1.append(tupla)
-mediaponderada=nota1*(0.3)+nota2*(0.4)+nota3*(0.3)
+mediaponderada=nota1*0.3+nota2*0.4+nota3*0.3
+print(mediaponderada)
 if mediaponderada >=7:
     print(mediaponderada)
     llista1[nombre]=mediaponderada
