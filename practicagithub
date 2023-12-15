@@ -1,0 +1,11 @@
+# introdueix un llista de tuples amb la informació requerida
+estudiante1= [ , , , , , ]
+#Afegir elements a la llista d'estudisantes(Nom, Cognom, Edat, Nota1, Nota2, Nota3).
+NOM=1
+COGNOM=2
+EDAT=3
+NOTA1=4
+NOTA2=5
+NOTA3=6
+
+
