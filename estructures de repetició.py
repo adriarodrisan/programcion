@@ -4,4 +4,5 @@ texto= texto.casefold()
 contarpalabras=texto.split(" ")
 for i in range(len(contarpalabras)):
     for j in range(len(contarpalabras)):
-        if contarpalabras[i]== 
+        if contarpalabras[i]== contarpalabras[j]:
+            
