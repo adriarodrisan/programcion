@@ -23,20 +23,16 @@ tupla=(nombre,apellido,edad,nota1_2,nota2_2,nota3_2)
 estudiante2.append(tupla)
 mediaponderada2=nota1_2*0.3+nota2_2*0.4+nota3_2*0.3
 if mediaponderada1 >=7:
-    print(mediaponderada1)
     llista1[nombre]=mediaponderada1
 else:
     if mediaponderada2 >=7:
-        print(mediaponderada2)
         llista1[nombre]=mediaponderada2
         
 if nota1_1>=8 or nota2_1>=8 or nota3_1>=8:
-    print(mediaponderada1)
     llista2[nombre]=mediaponderada1
     
 else:
     if nota1_2>=8 or nota2_2>=8 or nota3_2>=8:
-        print(mediaponderada2)
         llista2[nombre]=mediaponderada2
 print(llista1)
 print(llista2)  
