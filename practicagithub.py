@@ -34,6 +34,6 @@ if nota1_1>=8 or nota2_1>=8 or nota3_1>=8:
 else:
     if nota1_2>=8 or nota2_2>=8 or nota3_2>=8:
         llista2.append(tupla2)
-print(llista1)
+print(llista1[0], llista1[6])
 print(llista2) 
 #POST: devuelve el nombre i la media de sus examenes
