@@ -3,7 +3,7 @@ estudiante1=[]
 estudiante2=[]
 llista1={}
 llista2={}
-#Afegir elements a la llista d'estudisantes(Nom, Cognom, Edat, Nota1, Nota2, Nota3).
+# Afegir elements a la llista d'estudisantes(Nom, Cognom, Edat, Nota1, Nota2, Nota3).
 nombre1=str(input("introduce el nombre del alumno: " ))
 apellido=str(input("Introduzca los apellidos del estudiante: ") )
 edad=int(input("Introduzca la edad del estudiante: "))
