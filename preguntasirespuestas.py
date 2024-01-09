@@ -1,4 +1,4 @@
-llista_preguntes=["¿Que dos pokemons no tenian devilidades asta llegar la sexta generacion?","¿Qué tipo de Pokémon es inmune a los movimientos de tipo Normal?","¿Cuál es el proceso mediante el cual las plantas producen su propio alimento utilizando la luz solar?",""]
+llista_preguntes=["¿En qué año se llevó a cabo la Revolución Rusa?","¿En año se produjo la primera explosion nuclear","¿qual es el numero perfecto para Sheldon Cooper","¿Cuántos continentes hay en el mundo?","¿Cuántos elementos químicos hay en la tabla periódica?"]
 numeroalotorio=[0,1,2,3,4]
 seed=int(input("seed= "))
 ''' Com fer un número aleatòri: 
