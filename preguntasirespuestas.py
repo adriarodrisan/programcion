@@ -8,4 +8,5 @@ número aleatòri farem el següent codi.'''
 seed = (seed * 997) % 1000
 random = (seed * 503) % 1000 / 100
 numero_pregunta = int(random * (len(llista_preguntes)))
-print(numero_pregunta)
+#print(llista_preguntes[numero_pregunta])
+print(seed)
